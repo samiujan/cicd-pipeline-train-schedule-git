@@ -23,8 +23,4 @@ zip.dependsOn npm_build
 build.dependsOn npm_build
 npm_build.dependsOn npmInstall
 npm_build.dependsOn npm_test
-<<<<<<< HEAD
 npm_test.dependsOn npmInstall
-=======
-npm_test.dependsOn npmInstall
->>>>>>> 129e120cb531e03a9de5d27012e942fcfa47b41c
